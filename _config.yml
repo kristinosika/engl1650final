@@ -1,13 +1,3 @@
 theme: jekyll-theme-slate
-title: ENGL 1650 Final Project
+title: ENGL 1650 Final Portfolio
 description: By Kristin Osika
-
-navigation:
-  - name: Home
-    link: /
-  - name: About
-    link: /about/
-  - name: Projects
-    link: /projects/
-  - name: Contact
-    link: /contact/
