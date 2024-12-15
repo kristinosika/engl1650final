@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website with Navigation Bar</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #e6f7ff, #cce7ff);
+            color: #003366;
+        }
+        nav {
+            background-color: #00509e;
+            color: white;
+            padding: 0.8em 1.5em;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 1em;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s, background-color 0.3s;
+            padding: 0.5em 1.2em;
+            border-radius: 25px;
+            background: rgba(255, 255, 255, 0.2);
+        }
+        nav ul li a:hover {
+            color: #00509e;
+            background-color: #cce7ff;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 2em;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        p {
+            text-align: center;
+            font-size: 1.2em;
+            max-width: 600px;
+            margin: 1em auto;
+            line-height: 1.6;
+        }
+        p span {
+            color: #00509e;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #00509e;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 0.9em;
+        }
+        footer a {
+            color: #cce7ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="ECreflection.html">EC Reflection</a></li>
+        <li><a href="https://printinginprisons.org/blog/osika/" target="_blank">Printing in Prisons Multimedia Essay</a></li>
+        <li><a href="reflection.html">Final Reflection</a></li>
+        <li><a href="lookingforward.html">Looking Forward</a></li> 
+    </ul>
+</nav>
+
+<h1>Storytelling through Data and Design in Digital Humanities</h1>
+<p>By Kristin Osika</p>
+<p>Click the links in the <span>navigation bar</span> to explore the different pages.</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Small Images Side by Side</title>
+    <style>
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: nowrap;
+        }
+        .image-container img {
+            width: 200px; /* Set a small width */
+            height: auto; /* Maintain aspect ratio */
+            margin: 4px; /* Add some spacing between images */
+            margin-left: 5px; /* Add margin to the left */
+            margin-right: 5px; /* Add margin to the right */
+        }
+    </style>
+</head>
+</body>
+    <div class="image-container">
+        <img src="image1.png" alt="Image 1">
+        <img src="image2.png" alt="Image 2">
+        <img src="image3.png" alt="Image 3">
+        <img src="image4.png" alt="Image 4">
+        <img src="image5.png" alt="Image 5">
+    </div>
+
+<footer>
+    <p>&copy; 2024 Kristin's ENGL 1650 Website. Designed with <a href="#">love</a>.</p>
+</footer>
+
+</body>
+</html>
